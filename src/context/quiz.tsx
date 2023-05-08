@@ -1,13 +1,12 @@
 import { createContext, useReducer } from "react"
 import { QuizContextType, QuizState, QuizContextProps } from "../types/quiz"
 import reducer from "../reducers/quiz"
-import data from "../data-mock/questions"
 
 const QuizContext = createContext<QuizContextType | null>(null)
 
 const initialState: QuizState = {
   currentQuestionIndex: 0,
-  quiz: data || [],
+  quiz: [],
   showResult: false,
   answers: [],
   currentAnswer: "",

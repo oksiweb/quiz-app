@@ -8,6 +8,12 @@ export interface Question {
   correctAnswer: string
 }
 
+export interface BackendQuestion {
+  correct_answer: string
+  incorrect_answers: string[]
+  question: string
+}
+
 export interface Answer {
   answer: string
   index: number
