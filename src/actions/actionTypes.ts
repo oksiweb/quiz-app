@@ -1,0 +1,5 @@
+export const SET_CURRENT_QUESTION = "SET_CURRENT_QUESTION"
+export const RESTART = "RESTART"
+export const SET_RESULT = "SET_RESULT"
+export const SET_ANSWERS = "SET_ANSWERS"
+export const SET_CURRENT_ANSWER = "SET_CURRENT_ANSWER"
